@@ -19,3 +19,15 @@ const CampsitesList = () => {
 };
 
 export default CampsitesList;
+
+src/features/display/DisplayCard.js
+    return (
+        <Card>
+            <CardImg src={image} alt={name} />
+            <CardBody>
+                <CardTitle>{name}</CardTitle>
+                <CardText>{description}</CardText>
+            </CardBody>
+        </Card>
+    );
+};
